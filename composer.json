@@ -1,0 +1,23 @@
+{
+    "name": "cameron/sftp-service",
+    "description": "A simple SFTP service",
+    "type": "sftp",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Cameron\\SftpService\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Cameron Ramirez",
+            "email": "caribcoded@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=8.2",
+        "symfony/dotenv": "7.0.x-dev",
+        "phpseclib/phpseclib": "~3.0"
+    }
+}
